@@ -2,7 +2,7 @@
 <modelVersion>4.0.0</modelVersion> 
  
     <groupId>org.jogamp.jocl</groupId>
-    <artifactId>jocl-natives-linux-am64</artifactId>
+    <artifactId>jocl-natives-linux-amd64</artifactId>
     <packaging>jar</packaging>
     <name>Jocl</name>
     <version>0.9-b455-20111018</version>

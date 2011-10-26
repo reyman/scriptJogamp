@@ -2,7 +2,7 @@
 <modelVersion>4.0.0</modelVersion> 
  
     <groupId>org.jogamp.joal</groupId>
-    <artifactId>joal-natives-linux-am64</artifactId>
+    <artifactId>joal-natives-linux-amd64</artifactId>
     <packaging>jar</packaging>
     <name>Joal</name>
     <version>2.0-20111018</version>
