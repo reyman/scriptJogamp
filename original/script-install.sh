@@ -33,15 +33,15 @@ mvn install:install-file -DgroupId=org.jogamp.jocl -DartifactId=jocl-natives-sol
 mvn install:install-file -DgroupId=org.jogamp.jocl -DartifactId=jocl-natives-windows-amd64 -Dversion=@v.org.jogamp.jocl@ -Dfile=./jocl-natives-windows-amd64.jar -DpomFile=./pom-jocl-natives-windows-amd64.xml -Dpackaging=jar
 mvn install:install-file -DgroupId=org.jogamp.jocl -DartifactId=jocl-natives-windows-i586 -Dversion=@v.org.jogamp.jocl@ -Dfile=./jocl-natives-windows-i586.jar -DpomFile=./pom-jocl-natives-windows-i586.xml -Dpackaging=jar
 
-mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal -Dversion=@2.0-20111219@ -Dfile=./joal.jar -DpomFile=./pom-joal.xml -Dpackaging=jar
+mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal -Dversion=@v.org.jogamp.joal@ -Dfile=./joal.jar -DpomFile=./pom-joal.xml -Dpackaging=jar
 
-mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-linux-amd64 -Dversion=@2.0-20111219@ -Dfile=./joal-natives-linux-amd64.jar -DpomFile=./pom-joal-natives-linux-amd64.xml -Dpackaging=jar
-mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-macosx-universal -Dversion=@2.0-20111219@ -Dfile=./joal-natives-macosx-universal.jar -DpomFile=./pom-joal-natives-macosx-universal.xml -Dpackaging=jar
-mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-linux-i586 -Dversion=@2.0-20111219@ -Dfile=./joal-natives-linux-i586.jar -DpomFile=./pom-joal-natives-linux-i586.xml -Dpackaging=jar
-mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-solaris-amd64 -Dversion=@2.0-20111219@ -Dfile=./joal-natives-solaris-amd64.jar -DpomFile=./pom-joal-natives-solaris-amd64.xml -Dpackaging=jar
-mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-solaris-i586 -Dversion=@2.0-20111219@ -Dfile=./joal-natives-solaris-i586.jar -DpomFile=./pom-joal-natives-solaris-i586.xml -Dpackaging=jar
-mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-windows-amd64 -Dversion=@2.0-20111219@ -Dfile=./joal-natives-windows-amd64.jar -DpomFile=./pom-joal-natives-windows-amd64.xml -Dpackaging=jar
-mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-windows-i586 -Dversion=@2.0-20111219@ -Dfile=./joal-natives-windows-i586.jar -DpomFile=./pom-joal-natives-windows-i586.xml -Dpackaging=jar
+mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-linux-amd64 -Dversion=@v.org.jogamp.joal@ -Dfile=./joal-natives-linux-amd64.jar -DpomFile=./pom-joal-natives-linux-amd64.xml -Dpackaging=jar
+mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-macosx-universal -Dversion=@v.org.jogamp.joal@ -Dfile=./joal-natives-macosx-universal.jar -DpomFile=./pom-joal-natives-macosx-universal.xml -Dpackaging=jar
+mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-linux-i586 -Dversion=@v.org.jogamp.joal@ -Dfile=./joal-natives-linux-i586.jar -DpomFile=./pom-joal-natives-linux-i586.xml -Dpackaging=jar
+mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-solaris-amd64 -Dversion=@v.org.jogamp.joal@ -Dfile=./joal-natives-solaris-amd64.jar -DpomFile=./pom-joal-natives-solaris-amd64.xml -Dpackaging=jar
+mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-solaris-i586 -Dversion=@v.org.jogamp.joal@ -Dfile=./joal-natives-solaris-i586.jar -DpomFile=./pom-joal-natives-solaris-i586.xml -Dpackaging=jar
+mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-windows-amd64 -Dversion=@v.org.jogamp.joal@ -Dfile=./joal-natives-windows-amd64.jar -DpomFile=./pom-joal-natives-windows-amd64.xml -Dpackaging=jar
+mvn install:install-file -DgroupId=org.jogamp.joal -DartifactId=joal-natives-windows-i586 -Dversion=@v.org.jogamp.joal@ -Dfile=./joal-natives-windows-i586.jar -DpomFile=./pom-joal-natives-windows-i586.xml -Dpackaging=jar
 
 #mvn deploy:deploy-file -Durl=file://C:\m2-repo \
 #                       -DrepositoryId=some.id \
